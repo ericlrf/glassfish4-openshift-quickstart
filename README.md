@@ -10,7 +10,7 @@ rhc app create glassfish4 diy
 2. Add git remote to GlassFish4 OpenShift quickstart and pull code from it.
 ```
 cd glassfish4
-git remote add upstream https://github.com/shekhargulati/glassfish4-openshift-quickstart.git
+git remote add upstream https://github.com/ericlrf/glassfish4-openshift-quickstart.git
 git pull -s recursive -X theirs upstream master
 ```
 
